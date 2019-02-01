@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:id="ActionOneDialog" dlg:left="87" dlg:top="26" dlg:width="230" dlg:height="106" dlg:closeable="true" dlg:moveable="true" dlg:title="Action One">
+ <dlg:bulletinboard>
+  <dlg:text dlg:id="Label2" dlg:tab-index="0" dlg:left="-88" dlg:top="64" dlg:width="11" dlg:height="2" dlg:value="Label2"/>
+  <dlg:button dlg:id="CommandButtonClose" dlg:tab-index="1" dlg:left="173" dlg:top="85" dlg:width="51" dlg:height="13" dlg:value="Close">
+   <script:event script:event-name="on-performaction" script:macro-name="vnd.sun.star.UNO:actionOk" script:language="UNO"/>
+  </dlg:button>
+  <dlg:button dlg:id="CommandButton1" dlg:tab-index="2" dlg:left="118" dlg:top="85" dlg:width="51" dlg:height="13" dlg:value="Insert">
+   <script:event script:event-name="on-performaction" script:macro-name="vnd.sun.star.script:Access2Base.PropertiesGet.getText?language=Basic&amp;location=application" script:language="Script"/>
+  </dlg:button>
+  <dlg:patternfield dlg:id="PatternField1" dlg:tab-index="3" dlg:left="8" dlg:top="18" dlg:width="58" dlg:height="38">
+   <script:event script:event-name="on-mouseup" script:macro-name="vnd.sun.star.script:HelloWorld.helloworld.js?language=JavaScript&amp;location=share" script:language="Script"/>
+   <script:event script:event-name="on-textchange" script:macro-name="vnd.sun.star.script:ChinesePunctuation.ChinesePunctuationTw.cp01?language=Basic&amp;location=application" script:language="Script"/>
+  </dlg:patternfield>
+  <dlg:patternfield dlg:id="PatternField2" dlg:tab-index="4" dlg:left="210" dlg:top="18" dlg:width="11" dlg:height="57"/>
+  <dlg:img dlg:id="ImageControl1" dlg:tab-index="5" dlg:left="83" dlg:top="16" dlg:width="43" dlg:height="53" dlg:src="file:///D:/Pictures/ipod%20%E5%9C%8B%E4%B8%AD%E5%9B%9E%E6%86%B6%E9%9B%86%E4%B8%AD%E8%99%95/IMG_0018.JPG"/>
+  <dlg:patternfield dlg:id="PatternField3" dlg:tab-index="6" dlg:left="167" dlg:top="50" dlg:width="32" dlg:height="30"/>
+  <dlg:filecontrol dlg:id="FileControl1" dlg:tab-index="7" dlg:left="21" dlg:top="75" dlg:width="83" dlg:height="14"/>
+  <dlg:img dlg:id="ImageControl2" dlg:tab-index="8" dlg:left="137" dlg:top="30" dlg:width="28" dlg:height="45"/>
+ </dlg:bulletinboard>
+</dlg:window>

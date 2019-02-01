@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="source"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="build"/>
+	<classpathentry kind="lib" path="D:/研究擴充ㄉ冬/jna-platform-4.5.2.jar"/>
+	<classpathentry kind="lib" path="D:/研究擴充ㄉ冬/jna-4.5.2.jar"/>
+	<classpathentry kind="con" path="org.libreoffice.ide.eclipse.java.OOO_CONTAINER/LibreOffice 6.0 #1"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
