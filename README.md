@@ -1,4 +1,7 @@
 
+## demo
+[介紹影片](https://youtu.be/reKIbn16IZI)
+
 
 ## screentshot
 ### 從工具列點選以開啟擴充
@@ -21,9 +24,6 @@
 
 ![](https://i.imgur.com/2B4yAjg.png)
 
-
-## demo
-[https://youtu.be/reKIbn16IZI](https://youtu.be/reKIbn16IZI)
 
 
 
